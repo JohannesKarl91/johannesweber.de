@@ -12,18 +12,35 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    img{
+    img {
         height: 50px;
     }
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         margin-left: 32px;
         font-weight: 500;
 
-        &:hover{
-            color: rgba(255,255,255,0.8);
+        &:hover {
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
         }
     }
 }
+
+.darkLinks {
+    a {
+        color: black;
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+.headerDark{
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+
